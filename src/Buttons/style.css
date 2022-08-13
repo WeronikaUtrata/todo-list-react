@@ -1,6 +1,7 @@
 .buttons {
     display: flex;
     flex-wrap: wrap;
+    padding: 20px;
 }
 
 .buttons__button {
@@ -19,8 +20,10 @@
 
 .buttons__button:hover {
     color: rgb(19, 180, 180);
+    cursor: pointer;
 }
 
 .buttons__button:disabled {
-    color: #ccc;  
+    color: #ccc;
+    cursor: not-allowed;
 }
