@@ -3,6 +3,10 @@
 ## Description
 Hello, this is my first simple tasks-list application. You can write down all things that you need to do. You can also cross out the ones you have already done or delete unnecessary tasks.
 
+![todolist ](https://user-images.githubusercontent.com/102754686/184668231-83d26c01-350f-4966-8308-c7cf4418dc73.png)
+
+## Demo: https://weronikautrata.github.io/todo-list-react/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
