@@ -5,10 +5,6 @@ const Form = ({ addNewTask }) => {
     const [newTaskContent, setNewTaskContent] = useState("");
     const inputRef = useRef(null);
 
-    const focusInput = () => {
-        inputRef.current.focus();
-    };
-
     const onFormSubmit = (event) => {
         event.preventDefault();
         const contentTrimmed = newTaskContent.trim();
@@ -19,7 +15,7 @@ const Form = ({ addNewTask }) => {
         
         addNewTask(contentTrimmed);
         setNewTaskContent("");
-        focusInput();
+        inputRef.current.focus();
     }
 
     return (
