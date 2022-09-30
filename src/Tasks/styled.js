@@ -40,12 +40,12 @@ export const Button = styled.button`
         border-radius: 3px;
 
         &:hover {
-            background: hsl(120, 86%, 46%);
+            filter: brightness(130%);
             cursor: pointer;
         }
 
         &:active {
-            background: hsl(120, 100%, 65%);
+            filter: brightness(160%);
         }
     `}
 
@@ -54,12 +54,12 @@ export const Button = styled.button`
         border-radius: 3px;
 
         &:hover {
-            background: hsl(0, 83%, 30%);
+            filter: brightness(130%);
             cursor: pointer;
         }
 
         &:active {
-            background: hsl(0, 85%, 66%);
+            filter: brightness(160%);
         }
     `}
 `;

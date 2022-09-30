@@ -7,7 +7,7 @@ export const FormContainer = styled.form`
 
     @media(max-width: 767px) {
         grid-template-columns: 1fr;
-}
+    }
 `;
 
 export const StyledInput = styled.input`
@@ -27,13 +27,13 @@ export const Button = styled.button`
     transition: 0.5s;
 
     &:hover {
-        background: rgb(19, 180, 180);
+        filter: brightness(130%);
         cursor: pointer;
         transform: scale(1.1);
     }
 
     &:active {
-        background: rgb(1, 89, 89);
+        filter: brightness(150%);
     }
 `;
 

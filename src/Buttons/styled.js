@@ -15,10 +15,10 @@ export const Button = styled.button`
     @media (max-width: 767px) {
         flex-basis: 100%;
         margin: 10px;
-}
+    }
 
     &:hover {
-        color: rgb(19, 180, 180);
+        filter: brightness(130%);
         cursor: pointer;
     }
 
