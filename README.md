@@ -9,6 +9,15 @@ Hello, this is my first simple tasks-list application. You can write down all th
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Technologies used:
+- HTML
+- CSS (grid, media queries)
+- BEM
+- JavaScript
+- Create React App
+- Styled-Components
+- React Hooks
+
 ## Available Scripts
 
 In the project directory, you can run:
